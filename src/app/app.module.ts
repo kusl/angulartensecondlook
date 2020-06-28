@@ -403,6 +403,7 @@ import { TestComponent397Component } from './test-component397/test-component397
 import { TestComponent398Component } from './test-component398/test-component398.component';
 import { TestComponent399Component } from './test-component399/test-component399.component';
 import { TestComponent400Component } from './test-component400/test-component400.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -810,7 +811,8 @@ import { TestComponent400Component } from './test-component400/test-component400
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
