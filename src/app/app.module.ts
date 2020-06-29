@@ -403,6 +403,7 @@ import { TestComponent397Component } from './test-component397/test-component397
 import { TestComponent398Component } from './test-component398/test-component398.component';
 import { TestComponent399Component } from './test-component399/test-component399.component';
 import { TestComponent400Component } from './test-component400/test-component400.component';
+import { MaterialModule } from './material/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -812,6 +813,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MaterialModule,
     BrowserAnimationsModule
   ],
   providers: [],
