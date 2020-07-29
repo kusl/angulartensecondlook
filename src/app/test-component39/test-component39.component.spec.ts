@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { MaterialModule } from './../material/material.module';
 
 import { TestComponent39Component } from './test-component39.component';
 
@@ -8,6 +9,7 @@ describe('TestComponent39Component', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+  imports: [ MaterialModule ],
       declarations: [ TestComponent39Component ]
     })
     .compileComponents();
