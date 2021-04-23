@@ -4,7 +4,8 @@ cd /home/kushal/src/angular/angulartensecondlook;
 time yarn run ng update;
 time yarn run ng update @angular/core @angular/cli @angular/cdk @angular/material @angular/localize rxjs;
 time git add .;
-time git commit -m "update angular" -m "from a shell script"
+time git commit -m "update angular" -m "from a shell script";
+time git push origin master;
 time yarn run ng build --configuration=production;
 time yarn run ng test;
 du -sh dist/angulartensecondlook/;
