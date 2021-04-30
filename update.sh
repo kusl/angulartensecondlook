@@ -2,7 +2,7 @@
 
 cd /home/kushal/src/angular/angulartensecondlook;
 time yarn run ng update;
-time yarn run ng update @angular/core @angular/cli @angular/cdk @angular/material rxjs;
+time yarn run ng update @angular/core @angular/cli @angular/cdk @angular/material;
 time git add .;
 time git commit -m "update angular" -m "from a shell script";
 time git push origin master;
