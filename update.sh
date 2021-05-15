@@ -2,6 +2,10 @@
 
 cd /home/kushal/src/angular/angulartensecondlook;
 free -h;
+source ~/.nvm/nvm.sh;
+time nvm install --lts;
+time nvm use --lts;
+time npm install --global @angular/cli yarn;
 export NODE_OPTIONS="--max-old-space-size=6144";
 time yarn run ng update;
 time yarn run ng update @angular/core @angular/cli @angular/cdk @angular/material;
