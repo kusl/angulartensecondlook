@@ -1,6 +1,8 @@
 #!/bin/bash
 
 cd /home/kushal/src/angular/angulartensecondlook;
+free -h;
+export NODE_OPTIONS="--max-old-space-size=6144";
 time yarn run ng update;
 time yarn run ng update @angular/core @angular/cli @angular/cdk @angular/material;
 time git add .;
