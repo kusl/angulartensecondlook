@@ -9,6 +9,7 @@ time npm install --global @angular/cli yarn;
 export NODE_OPTIONS="--max-old-space-size=6144";
 time yarn run ng update;
 time yarn run ng update @angular/core @angular/cli @angular/cdk @angular/material;
+time yarn version --patch;
 time git add .;
 time git commit -m "update angular" -m "from a shell script";
 time git push origin master;
