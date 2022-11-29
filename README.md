@@ -63,3 +63,42 @@ caniuse-lite has been successfully updated
 No target browser changes
 ```
 ```bash
+yarn run v1.22.19
+$ ng build --configuration production
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+- Generating service worker...
+✔ Service worker generation complete.
+
+Initial Chunk Files           | Names         |  Raw Size | Estimated Transfer Size
+main.5f29b5ea04ebfb5b.js      | main          | 368.42 kB |                89.76 kB
+styles.def9c13039205723.css   | styles        |  84.28 kB |                 8.58 kB
+polyfills.9a573026e295a22a.js | polyfills     |  36.18 kB |                11.52 kB
+runtime.a19c91f61fe66ddc.js   | runtime       |   1.06 kB |               603 bytes
+
+| Initial Total | 489.94 kB |               110.45 kB
+
+Build at: 2022-11-29T15:23:06.248Z - Hash: 664e61f001369d75 - Time: 26041ms
+
+./src/custom-theme.scss - Warning: Module Warning (from ./node_modules/sass-loader/dist/cjs.js):
+Deprecation $weight: Passing a number without unit % (60) is deprecated.
+
+To preserve current behavior: $weight * 1%
+
+More info: https://sass-lang.com/d/function-units
+
+@material/slider/_slider-theme.scss 77:5                                    @use
+node_modules/@angular/material/slider/_slider-theme.scss 3:1                @use
+node_modules/@angular/material/core/density/private/_all-density.scss 25:1  @forward
+@angular/_index.scss 18:1                                                   @use
+src/custom-theme.scss 1:1                                                   root stylesheet
+
+
+
+Done in 29.57s.
+```
