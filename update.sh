@@ -10,6 +10,12 @@ echo '' >> README.md 2>&1;
 echo '# Angular Ten Second Look' >> README.md 2>&1;
 echo '' >> README.md 2>&1;
 
+echo 'Code: https://github.com/kusl/angulartensecondlook' >> README.md 2>&1;
+echo '' >> README.md 2>&1;
+
+echo 'Deployment: https://github.com/angularten/angularten.github.io' >> README.md 2>&1;
+echo '' >> README.md 2>&1;
+
 echo "\`\`\`bash" >> README.md 2>&1;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt 2>&1;
 git add .;
