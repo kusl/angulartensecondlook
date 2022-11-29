@@ -7,7 +7,7 @@ git add .;
 git commit -m "add timestamp";
 
 echo '' >> README.md 2>&1;
-echo '# Angular Twelve' >> README.md 2>&1;
+echo '# Angular Ten Second Look' >> README.md 2>&1;
 echo '' >> README.md 2>&1;
 
 echo "\`\`\`bash" >> README.md 2>&1;
@@ -86,14 +86,9 @@ git push origin master;
 
 
 du -sh dist/AngularTenSecondLook/;
-time rsync -av /home/kushal/src/angular/AngularTenSecondLook/dist/AngularTenSecondLook/ /home/kushal/src/angular/angulrtwelvegithubio;
-du -sh /home/kushal/src/angular/angulrtwelvegithubio;
-cd /home/kushal/src/angular/angulrtwelvegithubio/;
+time rsync -av /home/kushal/src/angular/angulartensecondlook/dist/AngularTenSecondLook/ /home/kushal/src/angular/angulartengithubio;
+du -sh /home/kushal/src/angular/angulartengithubio;
+cd /home/kushal/src/angular/angulartengithubio/;
 git add .;
 git commit -m "build and deploy";
-COMMIT_ID=$(git rev-parse --verify HEAD)
-curl https://sentry.io/api/hooks/release/builtin/5768670/b50116ba5ad9986947365aded6efb721e66310c9557954a43fe58fe0c27df2a4/ \
-  -X POST \
-  -H 'Content-Type: application/json' \
-  -d '{"version": "'"$COMMIT_ID"'"}'
 time git push origin master;
