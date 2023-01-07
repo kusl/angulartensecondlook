@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/src/angular/AngularTenSecondLook/;
+cd ~/src/angular/angulartensecondlook/;
 ping -A -D -c 20 -v 8.8.8.8 > ping.txt;
 date > README.md;
 git add .;
