@@ -63,3 +63,31 @@ warning " > codelyzer@6.0.1" has incorrect peer dependency "@angular/core@>=2.3.
 success Saved lockfile.
 Done in 6.81s.
 ```
+```bash
+Latest version:     1.0.30001489
+Installed versions: 1.0.30001481, 1.0.30001489
+Removing old caniuse-lite from lock file
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: EIO: i/o error, open '/home/kushal/src/angular/angulartensecondlook/yarn.lock'
+    at Object.openSync (node:fs:601:3)
+    at Object.writeFileSync (node:fs:2249:35)
+    at updatePackageManually (/home/kushal/src/angular/angulartensecondlook/node_modules/@angular-devkit/build-angular/node_modules/update-browserslist-db/index.js:207:6)
+    at updateDB (/home/kushal/src/angular/angulartensecondlook/node_modules/@angular-devkit/build-angular/node_modules/update-browserslist-db/index.js:281:5)
+    at Object.<anonymous> (/home/kushal/src/angular/angulartensecondlook/node_modules/@angular-devkit/build-angular/node_modules/browserslist/cli.js:42:3)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  errno: -5,
+  syscall: 'open',
+  code: 'EIO',
+  path: '/home/kushal/src/angular/angulartensecondlook/yarn.lock'
+}
+
+Node.js v18.16.0
+```
+```bash
