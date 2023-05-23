@@ -67,3 +67,12 @@ warning " > karma-jasmine-html-reporter@1.7.0" has incorrect peer dependency "ja
 success Saved lockfile.
 Done in 29.62s.
 ```
+```bash
+Latest version:     1.0.30001489
+Installed version:  1.0.30001489
+caniuse-lite is up to date
+caniuse-lite has been successfully updated
+
+No target browser changes
+```
+```bash
