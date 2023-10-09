@@ -1,222 +1,26 @@
 ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-[1696848805.478146] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=40.6 ms
-[1696848805.513560] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=35.3 ms
-[1696848805.548923] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=33.9 ms
-[1696848805.588975] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=38.2 ms
-[1696848805.625584] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=36.4 ms
-[1696848805.661246] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=35.5 ms
-[1696848805.695340] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=34.0 ms
-[1696848805.733828] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=37.5 ms
-[1696848805.775324] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=41.4 ms
-[1696848805.809013] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=36.9 ms
-[1696848805.850180] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=41.1 ms
-[1696848805.880819] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=33.5 ms
-[1696848805.917642] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=35.5 ms
-[1696848805.958888] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=41.1 ms
-[1696848805.995231] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=39.4 ms
-[1696848806.028584] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=34.5 ms
-[1696848806.063038] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=34.1 ms
-[1696848806.097249] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=34.0 ms
-[1696848806.131827] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=34.4 ms
-[1696848806.173865] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=41.9 ms
+[1696851303.136616] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=68.2 ms
+[1696851303.203648] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=66.8 ms
+[1696851303.277459] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=72.6 ms
+[1696851303.344172] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=70.9 ms
+[1696851303.415697] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=72.5 ms
+[1696851303.480829] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=68.0 ms
+[1696851303.541373] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=59.5 ms
+[1696851303.606614] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=56.8 ms
+[1696851303.655795] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=37.6 ms
+[1696851303.729357] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=46.8 ms
+[1696851303.778502] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=34.4 ms
+[1696851303.849785] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=46.5 ms
+[1696851303.904284] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=45.1 ms
+[1696851303.967687] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=53.5 ms
+[1696851304.012245] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=44.0 ms
+[1696851304.072117] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=50.9 ms
+[1696851304.117144] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=42.9 ms
+[1696851304.174747] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=48.5 ms
+[1696851304.217975] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=40.7 ms
+[1696851304.272823] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=45.6 ms
 
 --- 8.8.8.8 ping statistics ---
-20 packets transmitted, 20 received, 0% packet loss, time 758ms
-rtt min/avg/max/mdev = 33.538/36.963/41.857/2.875 ms, pipe 2, ipg/ewma 39.868/37.199 ms
-ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
-
-ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
-PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-[1696848806.380398] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=43.2 ms
-[1696848806.417947] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=37.3 ms
-[1696848806.454941] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=35.8 ms
-[1696848806.489511] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=31.9 ms
-[1696848806.533787] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=39.5 ms
-[1696848806.567374] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=33.5 ms
-[1696848806.608340] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=38.7 ms
-[1696848806.644900] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=36.4 ms
-[1696848806.685469] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=40.4 ms
-[1696848806.723178] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=39.0 ms
-[1696848806.772437] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=49.1 ms
-[1696848806.813061] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=50.6 ms
-[1696848806.844990] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=43.4 ms
-[1696848806.878249] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=35.1 ms
-[1696848806.918461] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=37.7 ms
-[1696848806.953707] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=35.2 ms
-[1696848806.991527] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=36.2 ms
-[1696848807.027372] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=35.6 ms
-[1696848807.060815] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=33.3 ms
-[1696848807.102474] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=40.2 ms
-
---- 8.8.8.8 ping statistics ---
-20 packets transmitted, 20 received, 0% packet loss, time 791ms
-rtt min/avg/max/mdev = 31.911/38.603/50.577/4.779 ms, pipe 2, ipg/ewma 41.635/38.515 ms
-ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
-
-ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
-PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-[1696848808.022537] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=45.1 ms
-[1696848808.056367] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=33.8 ms
-[1696848808.100854] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=37.9 ms
-[1696848808.136385] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=34.0 ms
-[1696848808.179951] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=39.1 ms
-[1696848808.215144] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=35.1 ms
-[1696848808.249389] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=31.8 ms
-[1696848808.286885] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=32.6 ms
-[1696848808.328817] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=38.8 ms
-[1696848808.363460] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=34.6 ms
-[1696848808.399635] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=35.9 ms
-[1696848808.434304] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=34.6 ms
-[1696848808.468391] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=34.0 ms
-[1696848808.500214] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=31.8 ms
-[1696848808.538469] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=37.0 ms
-[1696848808.575478] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=37.9 ms
-[1696848808.604944] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=31.4 ms
-[1696848808.644363] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=37.8 ms
-[1696848808.676831] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=34.2 ms
-[1696848808.715283] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=38.4 ms
-
---- 8.8.8.8 ping statistics ---
-20 packets transmitted, 20 received, 0% packet loss, time 763ms
-rtt min/avg/max/mdev = 31.393/35.794/45.056/3.201 ms, pipe 2, ipg/ewma 40.156/36.281 ms
-ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
-
-ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
-PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-[1696848817.784268] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=37.2 ms
-[1696848817.826121] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=41.8 ms
-[1696848817.856345] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=34.9 ms
-[1696848817.892171] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=35.8 ms
-[1696848817.924837] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=32.6 ms
-[1696848817.959131] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=33.0 ms
-[1696848817.991524] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=32.3 ms
-[1696848818.030902] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=39.3 ms
-[1696848818.061914] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=34.3 ms
-[1696848818.096812] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=34.9 ms
-[1696848818.137175] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=40.3 ms
-[1696848818.166963] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=34.0 ms
-[1696848818.202713] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=35.7 ms
-[1696848818.249853] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=47.1 ms
-[1696848818.272486] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=33.6 ms
-[1696848818.311925] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=39.1 ms
-[1696848818.356976] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=47.1 ms
-[1696848818.383639] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=36.6 ms
-[1696848818.421242] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=37.6 ms
-[1696848818.453470] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=32.2 ms
-
---- 8.8.8.8 ping statistics ---
-20 packets transmitted, 20 received, 0% packet loss, time 736ms
-rtt min/avg/max/mdev = 32.175/36.971/47.131/4.294 ms, pipe 2, ipg/ewma 38.715/37.390 ms
-ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
-
-ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
-PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-[1696848821.014862] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=34.2 ms
-[1696848821.051025] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=36.1 ms
-[1696848821.086096] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=37.1 ms
-[1696848821.117945] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=34.8 ms
-[1696848821.151659] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=33.6 ms
-[1696848821.190791] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=39.1 ms
-[1696848821.225622] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=38.8 ms
-[1696848821.261308] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=39.4 ms
-[1696848821.295662] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=37.9 ms
-[1696848821.328336] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=33.9 ms
-[1696848821.361499] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=33.1 ms
-[1696848821.399721] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=38.2 ms
-[1696848821.436069] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=38.4 ms
-[1696848821.466191] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=32.4 ms
-[1696848821.499536] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=32.7 ms
-[1696848821.539247] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=39.7 ms
-[1696848821.566794] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=32.1 ms
-[1696848821.606406] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=39.6 ms
-[1696848821.636744] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=34.9 ms
-[1696848821.671798] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=35.0 ms
-
---- 8.8.8.8 ping statistics ---
-20 packets transmitted, 20 received, 0% packet loss, time 716ms
-rtt min/avg/max/mdev = 32.143/36.054/39.665/2.594 ms, pipe 2, ipg/ewma 37.674/35.741 ms
-ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
-
-ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
-PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-[1696848836.437773] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=38.6 ms
-[1696848836.476993] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=38.8 ms
-[1696848836.513111] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=35.9 ms
-[1696848836.561836] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=46.6 ms
-[1696848836.589911] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=36.6 ms
-[1696848836.634379] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=42.1 ms
-[1696848836.673839] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=42.4 ms
-[1696848836.707952] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=37.4 ms
-[1696848836.745833] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=36.2 ms
-[1696848836.786171] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=37.6 ms
-[1696848836.823135] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=35.5 ms
-[1696848836.870944] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=45.4 ms
-[1696848836.902088] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=38.4 ms
-[1696848836.940213] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=37.5 ms
-[1696848836.977061] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=36.4 ms
-[1696848837.017092] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=37.4 ms
-[1696848837.065027] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=47.4 ms
-[1696848837.099227] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=43.4 ms
-[1696848837.145693] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=49.5 ms
-[1696848837.177421] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=41.0 ms
-
---- 8.8.8.8 ping statistics ---
-20 packets transmitted, 20 received, 0% packet loss, time 737ms
-rtt min/avg/max/mdev = 35.545/40.197/49.476/4.160 ms, pipe 2, ipg/ewma 38.801/41.220 ms
-ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
-
-ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
-PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-[1696848854.323799] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=41.7 ms
-[1696848854.365988] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=41.9 ms
-[1696848854.403486] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=37.4 ms
-[1696848854.445024] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=37.9 ms
-[1696848854.490789] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=42.7 ms
-[1696848854.527020] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=37.8 ms
-[1696848854.573403] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=43.2 ms
-[1696848854.611690] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=40.4 ms
-[1696848854.658251] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=45.9 ms
-[1696848854.689417] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=35.9 ms
-[1696848854.735663] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=41.3 ms
-[1696848854.828796] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=93.2 ms
-[1696848854.832069] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=55.2 ms
-[1696848854.860626] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=42.6 ms
-[1696848854.913067] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=47.1 ms
-[1696848854.976737] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=62.7 ms
-[1696848854.998950] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=36.9 ms
-[1696848855.051521] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=40.4 ms
-[1696848855.095387] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=37.3 ms
-[1696848855.139676] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=35.6 ms
-
---- 8.8.8.8 ping statistics ---
-20 packets transmitted, 20 received, 0% packet loss, time 822ms
-rtt min/avg/max/mdev = 35.574/44.861/93.187/12.829 ms, pipe 3, ipg/ewma 43.265/44.492 ms
-ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
-
-ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
-PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-[1696848855.281684] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=44.9 ms
-[1696848856.283693] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=46.9 ms
-[1696848857.282702] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=45.0 ms
-[1696848858.280023] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=41.2 ms
-[1696848859.282116] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=42.3 ms
-[1696848860.287554] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=46.8 ms
-[1696848861.282569] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=40.8 ms
-[1696848862.283054] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=39.4 ms
-[1696848863.302872] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=58.1 ms
-[1696848864.291111] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=45.2 ms
-[1696848865.285360] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=38.2 ms
-[1696848866.289662] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=41.2 ms
-[1696848867.287985] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=39.2 ms
-[1696848868.294146] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=44.4 ms
-[1696848869.291529] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=40.3 ms
-[1696848870.295247] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=42.6 ms
-[1696848871.302435] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=48.1 ms
-[1696848872.295384] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=39.9 ms
-[1696848873.301506] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=44.0 ms
-[1696848874.310477] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=51.9 ms
-
---- 8.8.8.8 ping statistics ---
-20 packets transmitted, 20 received, 0% packet loss, time 19022ms
-rtt min/avg/max/mdev = 38.151/44.010/58.115/4.676 ms
+20 packets transmitted, 20 received, 0% packet loss, time 1159ms
+rtt min/avg/max/mdev = 34.437/53.589/72.606/12.076 ms, pipe 2, ipg/ewma 60.991/49.470 ms
