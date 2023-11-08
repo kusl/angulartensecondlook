@@ -63,3 +63,30 @@ caniuse-lite has been successfully updated
 No target browser changes
 ```
 ```bash
+yarn run v1.22.19
+$ ng build --configuration production
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+- Generating service worker...
+✔ Service worker generation complete.
+
+Initial Chunk Files           | Names         |  Raw Size | Estimated Transfer Size
+main.09217034a52f7b5b.js      | main          | 386.83 kB |                93.91 kB
+styles.1a025a0459c0eda6.css   | styles        |  85.33 kB |                 8.31 kB
+polyfills.2e5507851b47d81d.js | polyfills     |  33.00 kB |                10.64 kB
+runtime.a19c91f61fe66ddc.js   | runtime       |   1.06 kB |               603 bytes
+
+| Initial Total | 506.22 kB |               113.46 kB
+
+Build at: 2023-11-08T16:17:22.817Z - Hash: 9a5696cbd2fb86d9 - Time: 11223ms
+
+Warning: bundle initial exceeded maximum budget. Budget 500.00 kB was not met by 6.22 kB with a total of 506.22 kB.
+
+
+Done in 13.04s.
+```
