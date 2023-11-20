@@ -3,3 +3,29 @@ ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hi
 
 ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
 ping: connect: Network is unreachable
+ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1700499732.589612] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=140 ms
+[1700499732.747341] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=157 ms
+[1700499732.893070] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=163 ms
+[1700499733.038684] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=165 ms
+[1700499733.236135] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=217 ms
+[1700499733.400600] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=232 ms
+[1700499734.669143] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=846 ms
+[1700499734.669264] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=679 ms
+[1700499734.669304] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=1012 ms
+[1700499734.669337] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=513 ms
+[1700499734.669369] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=347 ms
+[1700499734.693041] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=205 ms
+[1700499734.729533] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=74.8 ms
+[1700499735.043089] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=49.1 ms
+[1700499735.334119] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=37.9 ms
+[1700499735.607198] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=40.9 ms
+[1700499735.860375] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=53.9 ms
+[1700499736.066324] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=42.7 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 18 received, 10% packet loss, time 3575ms
+rtt min/avg/max/mdev = 37.867/276.416/1011.985/285.339 ms, pipe 7, ipg/ewma 188.167/195.340 ms
