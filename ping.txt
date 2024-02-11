@@ -52,3 +52,30 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 20 packets transmitted, 0 received, +20 errors, 100% packet loss, time 19031ms
 pipe 4
+ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1707649194.825169] From 192.168.1.241 icmp_seq=1 Destination Host Unreachable
+[1707649194.825280] From 192.168.1.241 icmp_seq=2 Destination Host Unreachable
+[1707649198.345197] From 192.168.1.241 icmp_seq=3 Destination Host Unreachable
+[1707649198.345326] From 192.168.1.241 icmp_seq=4 Destination Host Unreachable
+[1707649198.345352] From 192.168.1.241 icmp_seq=5 Destination Host Unreachable
+[1707649198.345368] From 192.168.1.241 icmp_seq=6 Destination Host Unreachable
+[1707649202.377303] From 192.168.1.241 icmp_seq=7 Destination Host Unreachable
+[1707649202.377383] From 192.168.1.241 icmp_seq=8 Destination Host Unreachable
+[1707649202.377404] From 192.168.1.241 icmp_seq=9 Destination Host Unreachable
+[1707649202.377420] From 192.168.1.241 icmp_seq=10 Destination Host Unreachable
+[1707649205.449198] From 192.168.1.241 icmp_seq=11 Destination Host Unreachable
+[1707649205.449280] From 192.168.1.241 icmp_seq=12 Destination Host Unreachable
+[1707649205.449300] From 192.168.1.241 icmp_seq=13 Destination Host Unreachable
+[1707649210.377200] From 192.168.1.241 icmp_seq=15 Destination Host Unreachable
+[1707649210.377278] From 192.168.1.241 icmp_seq=16 Destination Host Unreachable
+[1707649210.377298] From 192.168.1.241 icmp_seq=17 Destination Host Unreachable
+[1707649210.377312] From 192.168.1.241 icmp_seq=18 Destination Host Unreachable
+[1707649214.409248] From 192.168.1.241 icmp_seq=19 Destination Host Unreachable
+[1707649214.409322] From 192.168.1.241 icmp_seq=20 Destination Host Unreachable
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 0 received, +19 errors, 100% packet loss, time 19028ms
+pipe 4
