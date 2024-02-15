@@ -89,3 +89,9 @@ Error: node_modules/@angular/material/legacy-dialog/index.d.ts:199:22 - error TS
 error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ```
+Thu Feb 15 05:16:48 PM EST 2024
+Thu Feb 15 05:17:07 PM EST 2024
+yarn version v1.22.21
+info Current version: 0.0.593
+info New version: 0.0.594
+Done in 0.12s.
